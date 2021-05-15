@@ -1,6 +1,7 @@
 //console.log("Hello world");
 displayNotes();
-document.querySelector(".input-btn").addEventListener("click", () => {
+document.querySelector(".input-btn").addEventListener("click", (e) => {
+
   //  console.log("insdie the textwindow")
   displayNotes();
 });
